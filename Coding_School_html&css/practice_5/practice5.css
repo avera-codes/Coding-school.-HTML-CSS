@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0; 
+    padding: 0;
+}
+.header {
+    display: flex;
+    background-color: #667282;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.logo img {
+    height: 40px;
+    width: 120px;
+    display: flex;
+    
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.mainimage {
+    height: 950px;
+    background-image: url(images/snow-wolf-ck-1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 157px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    color: red;
+}
+.page {
+    display: flex;
+    width: 1040px;
+    margin: 0 auto;
+    padding: 100px 0;
+    flex-direction: column;
+}
+.description {
+    display: flex;
+    justify-content: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    flex-direction: column;
+    line-height: 29px;
+    align-items: flex-start;
+    font-size: 25px;
+    padding: 24px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.description2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    font-size: 25px;
+    line-height: 29px;
+    padding: 30px;
+    gap: 50px;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #667282;
+    padding: 0 50px 0 50px;
+    font-size: 50px;
+    width: 100%;
+    align-items: center;
+    height: 140px auto;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: rgb(240, 131, 7);
+}
+a:visited {
+    color: red;
+}
+    
+
+
